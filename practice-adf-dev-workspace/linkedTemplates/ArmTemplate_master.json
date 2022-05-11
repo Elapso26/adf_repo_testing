@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "practice-adf-dev-workspace"
 		},
+		"AzureDatabricks1_accessToken": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accessToken' of 'AzureDatabricks1'"
+		},
 		"dataFactory_properties_globalParameters_environment_value": {
 			"type": "string",
 			"defaultValue": "dev"
@@ -41,6 +45,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"AzureDatabricks1_accessToken": {
+						"value": "[parameters('AzureDatabricks1_accessToken')]"
 					},
 					"dataFactory_properties_globalParameters_environment_value": {
 						"value": "[parameters('dataFactory_properties_globalParameters_environment_value')]"

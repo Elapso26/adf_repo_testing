@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "practice-adf-dev-workspace"
 		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
 		"dataFactory_properties_globalParameters_environment_value": {
 			"value": "dev"
 		},
