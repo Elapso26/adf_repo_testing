@@ -1,0 +1,12 @@
+{
+	"name": "practice-adf-dev-workspace",
+	"properties": {
+		"globalParameters": {
+			"environment": {
+				"type": "string",
+				"value": "dev"
+			}
+		}
+	},
+	"location": "centralindia"
+}
